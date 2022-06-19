@@ -82,35 +82,46 @@ a:hover {
 nav {
     font-family: var(--mono);
     font-size: 80%;
-}
-nav h1 a {
-    font-family: var(--sans);
-    float: left;
     padding: 1rem;
-}
-nav ul {
-    list-style: none;
+  }
+  
+  nav h1 a {
+    font-family: var(--sans);
+  }
+  
+  nav ul {
+    margin: 0;
     padding: 0;
-    margin:0;
+    list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: center;
-    align-items:center;  
+    align-items: center;
     gap: 2rem;
-}
+  }
+  nav li:first-child {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  
+  nav [class*="fa-"] {
+    font-size: 150%;
+    color: var(--aqua);
+  }
 
-nav li: :first-child{
-    flex-basis: 100;
-    text-align:center;
-}
+  nav h1 [class*="fa-"]{
+    font-size: 100%;
+    color: var(--aqua);
+  }
 
-nav a{
-color: var(--white);
-text-decoration: none;
-display: block;
-}
-
-/*pseudo classes for links navbar*/
-nav a:hover {
-    color: var(--magenta)
-}
+  nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  nav a:hover {
+    color: var(--magenta);
+  }
+  
+  

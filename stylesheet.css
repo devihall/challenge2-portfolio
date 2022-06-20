@@ -38,14 +38,17 @@ h3 {
 a {
     color: var(--magenta);
 }
-
 a:hover {
     color: var(--hotmag);
     text-decoration: none;
 }
-/*background color for div*/
+
+/*background color for divs*/
 .section-plum {
     background-color: var(--plum);
+}
+.section-dkblue {
+  background-color: var(--dkblue);
 }
 
 /* intro styles */
@@ -74,6 +77,66 @@ a:hover {
 #intro h2 {
     font-size: 4rem;
 }
+/* projects section styles */
+#projects {
+  padding: 4rem 1rem;
+}
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: calc(2.5rem * 1.5);
+}
+#projects h3 {
+    color: var(--aqua);
+}
+
+#projects h4 {
+  font-size: 1rem;
+  font-family: var(--mono);
+  margin: 0;
+}
+#projects a { 
+  color: var(--magenta);
+}
+#projects a:hover {
+  color: var(--aqua);
+  text-decoration: none;
+}
+
+/*style for black box around each project*/
+.blackbox {
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--black);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 1rem;
+}
+#projects img {
+    margin: 2rem 0 4rem 0;
+    padding: 1rem;
+    border-left: 1px solid var(--aqua);
+    border-top: 1px solid var(--aqua);
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
 /*Contact me styles*/
 #contact {
     width: 400px;
@@ -144,7 +207,7 @@ nav {
 
   @media (min-width:850px) {
     nav {
-        max-width: :1200px;
+        max-width:1200px;
         margin:0 auto;
     }
     nav li:first-child {
@@ -170,3 +233,4 @@ footer ul {
     justify-content: center;
     gap: 3rem;
     font-size: 3rem;
+}

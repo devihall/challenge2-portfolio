@@ -34,6 +34,7 @@ h2,
 h3 {
     margin: 0;
 }
+
 a {
     color: var(--magenta);
 }
@@ -42,9 +43,14 @@ a:hover {
     color: var(--hotmag);
     text-decoration: none;
 }
+/*background color for div*/
+.section-plum {
+    background-color: var(--plum);
+}
+
 /* intro styles */
 #intro {
-    padding-bottom: 10rem;
+    padding: 5rem;
 }
 
 #intro p {
@@ -123,13 +129,44 @@ nav {
   nav a:hover {
     color: var(--magenta);
   }
+  /*Button Style*/
   .button {
     background-color: var(--magenta);
     padding:0.5rem;
     border-radius: 5px;
+    font-family: var(--mono);
+    text-decoration: none;
   }
   .button:hover {
     color: var(--white);
     background-color: var(--hotmag);
   }
+
+  @media (min-width:850px) {
+    nav {
+        max-width: :1200px;
+        margin:0 auto;
+    }
+    nav li:first-child {
+        flex-basis: auto;
+        text-align: left;
+        margin-right: auto;
+    }
+  }
   
+  /* footer section style*/
+
+footer {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 3rem;

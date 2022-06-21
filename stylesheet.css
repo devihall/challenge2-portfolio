@@ -1,3 +1,4 @@
+/*coded with reference to course "Getting Started with CSS" by Jen Kramer from Frontend Masters*/
 /* variables  */
 :root {
     --black: #171321;
@@ -11,15 +12,12 @@
     --mono: "Oxygen mono", monospace;
     --sans: Oxygen, sans-serif;
 }
-/* border box model */
+/* border box model- this makes the margin,bordr&padding not additive--inherit applies it to all */
 html {
     box-sizing: border-box;
 }
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
+
+
 /* general styles for the page */
 body {
     padding: 0;
@@ -29,9 +27,7 @@ body {
     color: var(--white);
     font-size: var(--font-size);
 }
-h1,
-h2,
-h3 {
+h1,h2,h3 {
     margin: 0;
 }
 
@@ -43,6 +39,8 @@ a:hover {
     text-decoration: none;
 }
 
+  
+}
 /*background color for divs*/
 .section-plum {
     background-color: var(--plum);
@@ -77,62 +75,28 @@ a:hover {
 #intro h2 {
     font-size: 4rem;
 }
+
 /* projects section styles */
-#projects {
-  padding: 4rem 1rem;
-}
-#projects h2 {
-    font-size: 2.5rem;
-    margin-bottom: calc(2.5rem * 1.5);
-}
-#projects h3 {
-    color: var(--aqua);
+
+.float-container {
+ 
+  padding: 20px;
 }
 
-#projects h4 {
-  font-size: 1rem;
-  font-family: var(--mono);
-  margin: 0;
-}
-#projects a { 
-  color: var(--magenta);
-}
-#projects a:hover {
-  color: var(--aqua);
-  text-decoration: none;
-}
+.float-child1 {
+  width: 30%;
+  float: left;
+  
+  
+}  
+
+.float-child2 {
+  width: ;
+  float: right;
+  
+}  
 
 /*style for black box around each project*/
-.blackbox {
-    padding: 1rem;
-    border-radius: 10px;
-    color: white;
-    background-color: var(--black);
-    font-size: 1rem;
-    line-height: 1.5;
-}
-#projects ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    gap: 1rem;
-    font-size: 1rem;
-}
-#projects img {
-    margin: 2rem 0 4rem 0;
-    padding: 1rem;
-    border-left: 1px solid var(--aqua);
-    border-top: 1px solid var(--aqua);
-    border-radius: 25px;
-}
-
-
-
-
-
 
 
 
@@ -204,7 +168,7 @@ nav {
     color: var(--white);
     background-color: var(--hotmag);
   }
-
+/* navbar media query/responsiveness for mobile*/
   @media (min-width:850px) {
     nav {
         max-width:1200px;

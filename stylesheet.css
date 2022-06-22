@@ -12,8 +12,6 @@
     --mono: "Oxygen mono", monospace;
     --sans: Oxygen, sans-serif;
 }
-<<<<<<< HEAD
-=======
 /* Color Theme Swatches in Hex */
 .Poseidon-1-hex { color: #012030; }
 .Poseidon-2-hex { color: #13678A; }
@@ -30,7 +28,6 @@
 
 
 
->>>>>>> flexbox/projects
 /* border box model- this makes the margin,bordr&padding not additive--inherit applies it to all */
 html {
     box-sizing: border-box;
@@ -39,7 +36,7 @@ html {
 
 /* general styles for the page */
 body {
-    padding: 0;
+   padding: 0;
     margin: 0;
     font-family: var(--sans);
     background-color: var(--navy);
@@ -59,11 +56,6 @@ a:hover {
 }
 
   
-<<<<<<< HEAD
-}
-=======
-
->>>>>>> flexbox/projects
 /*background color for divs*/
 
 .section-ltblue {
@@ -106,30 +98,6 @@ a:hover {
 #intro h2 {
     font-size: 4rem;
 }
-<<<<<<< HEAD
-
-/* projects section styles */
-
-.float-container {
- 
-  padding: 20px;
-}
-
-.float-child1 {
-  width: 30%;
-  float: left;
-  
-  
-}  
-
-.float-child2 {
-  width: ;
-  float: right;
-  
-}  
-
-/*style for black box around each project*/
-=======
 #img-height {
   height: 80%;
   margin:100px 20px; }
@@ -137,12 +105,15 @@ a:hover {
 
 /* projects section styles */
 
+
+.section-width {
+  padding: 3rem;
+}
  
 
 #project-img {
-  margin: 20px;
-  height: 200px;
-  
+  height: 150px;
+  margin:10px 20px;
 }
 .row {
   display: flex;
@@ -151,7 +122,6 @@ a:hover {
 
 
 /*style for navy box around each project*/
->>>>>>> flexbox/projects
 
 
 

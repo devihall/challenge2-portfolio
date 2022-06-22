@@ -1,17 +1,36 @@
 /*coded with reference to course "Getting Started with CSS" by Jen Kramer from Frontend Masters*/
 /* variables  */
 :root {
-    --black: #171321;
-    --dkblue: #0d314b;
-    --plum: #4b0d49;
-    --hotmag: #ff17e4;
-    --magenta: #e310cb;
-    --aqua: #86fbfb;
+    --navy: #012030;
+    --dkblue: #2957ac;
+    --ltblue: #46aae4;
+    --aqua: #45C4B0;
+    --dkgreen: #5fbb6a;
+    --ltgreen: #b2ed7a;
     --white: #f7f8fa;
     --font-size: 1.3rem;
     --mono: "Oxygen mono", monospace;
     --sans: Oxygen, sans-serif;
 }
+<<<<<<< HEAD
+=======
+/* Color Theme Swatches in Hex */
+.Poseidon-1-hex { color: #012030; }
+.Poseidon-2-hex { color: #13678A; }
+.Poseidon-3-hex { color: #45C4B0; }
+.Poseidon-4-hex { color: #5fbb6a; }
+.Poseidon-5-hex { color: #DAFDBA; }
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #071078; }
+.My-Color-Theme-2-hex { color: #0B52D4; }
+.My-Color-Theme-3-hex { color: #0073BD; }
+.My-Color-Theme-4-hex { color: #0BBBD4; }
+.My-Color-Theme-5-hex { color: #2a8d7e; }
+
+
+
+
+>>>>>>> flexbox/projects
 /* border box model- this makes the margin,bordr&padding not additive--inherit applies it to all */
 html {
     box-sizing: border-box;
@@ -23,7 +42,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: var(--sans);
-    background-color: var(--black);
+    background-color: var(--navy);
     color: var(--white);
     font-size: var(--font-size);
 }
@@ -32,24 +51,36 @@ h1,h2,h3 {
 }
 
 a {
-    color: var(--magenta);
+    color: var(--dkgreen);
 }
 a:hover {
-    color: var(--hotmag);
+    color: var(--ltgreen);
     text-decoration: none;
 }
 
   
+<<<<<<< HEAD
 }
+=======
+
+>>>>>>> flexbox/projects
 /*background color for divs*/
-.section-plum {
-    background-color: var(--plum);
+
+.section-ltblue {
+    background-color: var(--ltblue);
 }
 .section-dkblue {
   background-color: var(--dkblue);
 }
 
 /* intro styles */
+
+
+
+#intro-section{
+  display: flex;
+  flex-direction: row;
+}
 #intro {
     padding: 5rem;
 }
@@ -67,7 +98,7 @@ a:hover {
 .name span {
     font-family: var(--sans);
     font-size: 4rem;
-    color: var(--aqua);
+    color: var(--ltgreen);
     display: block;
     font-weight: 300;
 }
@@ -75,6 +106,7 @@ a:hover {
 #intro h2 {
     font-size: 4rem;
 }
+<<<<<<< HEAD
 
 /* projects section styles */
 
@@ -97,6 +129,29 @@ a:hover {
 }  
 
 /*style for black box around each project*/
+=======
+#img-height {
+  height: 80%;
+  margin:100px 20px; }
+
+
+/* projects section styles */
+
+ 
+
+#project-img {
+  margin: 20px;
+  height: 200px;
+  
+}
+.row {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+/*style for navy box around each project*/
+>>>>>>> flexbox/projects
 
 
 
@@ -139,12 +194,12 @@ nav {
 
   nav [class*="fa-"] {
     font-size: 150%;
-    color: var(--aqua);
+    color: var(--ltgreen);
   }
 
   nav h1 [class*="fa-"]{
     font-size: 100%;
-    color: var(--aqua);
+    color: var(--ltgreen);
   }
 
   nav a {
@@ -154,11 +209,11 @@ nav {
   }
   
   nav a:hover {
-    color: var(--magenta);
+    color: var(--dkgreen);
   }
   /*Button Style*/
   .button {
-    background-color: var(--magenta);
+    background-color: var(--dkgreen);
     padding:0.5rem;
     border-radius: 5px;
     font-family: var(--mono);
@@ -166,7 +221,7 @@ nav {
   }
   .button:hover {
     color: var(--white);
-    background-color: var(--hotmag);
+    background-color: var(--aqua);
   }
 /* navbar media query/responsiveness for mobile*/
   @media (min-width:850px) {

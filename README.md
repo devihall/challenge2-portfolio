@@ -1,5 +1,5 @@
 # challenge2-portfolio
-This is my portfolio of previous work.
+This is my portfolio. https://devihall.github.io/d-hall-portfolio/
 
 My portfolio contains my name, a avatar, and links to sections about me, my work, and how to contact me
 You can see a sample of my  applications.

@@ -8,6 +8,8 @@ When you click on the images of the applications you will be taken to that deplo
 
 ![Screenshot 1](https://github.com/devihall/d-hall-portfolio/blob/main/Screen%20Shot%202022-06-28%20at%207.19.57%20AM.png) 
 
-![screenshot 2] (https://github.com/devihall/d-hall-portfolio/blob/main/Screen%20Shot%202022-06-28%20at%207.20.06%20AM.png)
+![Screenshot 2](https://github.com/devihall/d-hall-portfolio/blob/main/Screen%20Shot%202022-06-28%20at%207.20.06%20AM.png) 
 
-![screenshot 3] (https://github.com/devihall/d-hall-portfolio/blob/main/Screen%20Shot%202022-06-28%20at%207.20.17%20AM.png)
+![Screenshot 3](https://github.com/devihall/d-hall-portfolio/blob/main/Screen%20Shot%202022-06-28%20at%207.20.17%20AM.png) 
+
+
